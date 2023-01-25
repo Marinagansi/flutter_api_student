@@ -4,8 +4,9 @@ import 'package:json_annotation/json_annotation.dart';
 import 'package:objectbox/objectbox.dart';
 part 'student.g.dart';
 
-@JsonSerializable()
+
 @Entity()
+@JsonSerializable()
 class Student {
   @Id(assignable: true)
   int stdId;

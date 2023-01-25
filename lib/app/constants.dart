@@ -9,6 +9,7 @@ class Constant {
   static const String studentURL = "student";
   static const String searchStudentByBatchURL = "searchStudentByBatch";
   static const String searchStudentByCourseURL = "searchStudentByCourse";
+  static const String userImageURL = "http://10.0.2.2:3000";
 
   // ----------------Batch URL----------------
   static const String batchURL = "batch";
